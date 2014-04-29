@@ -1,6 +1,9 @@
+"use strict"
+
 var through = require('through2')
 var bl = require('bl')
 var node6 = require('node6')
+
 module.exports = function(filename) {
   if (!/\.js$/.test(filename)) return through()
   var buffer = bl()

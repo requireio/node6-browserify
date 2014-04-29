@@ -1,13 +1,13 @@
 {
   "name": "node6-browserify",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "node6 your node into the browser",
   "main": "index.js",
   "scripts": {
     "test": "(cd test && beefy index.js --open -- -t ../index.js)"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Tim Oxley",
+  "license": "MIT",
   "devDependencies": {
     "tape": "^2.12.3"
   },
