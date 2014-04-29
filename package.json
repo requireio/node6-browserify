@@ -1,0 +1,19 @@
+{
+  "name": "node6-browserify",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "(cd test && beefy index.js --open -- -t ../index.js)"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^2.12.3"
+  },
+  "dependencies": {
+    "node6": "git+ssh://git@github.com:requireio/node6.git",
+    "bl": "^0.8.0",
+    "through2": "^0.4.1"
+  }
+}
